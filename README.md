@@ -1,6 +1,7 @@
 Predicting When Saliency Maps are Accurate and Eye Fixations Consistent
 =================
 Anna Volokitin, Michael Gygli, Xavier Boix, CVPR 2016
+
 Send feedback, suggestions and questions to voanna AT vision.ee.ethz.ch
 ____
 This is a simplified version of the code written for the computational experiments to test whether we can predict the accuracy of saliency maps and the consistency of eye-fixations among different observers directly from the image.  Our experimental results are reported in the paper.
