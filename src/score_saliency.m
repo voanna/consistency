@@ -1,12 +1,12 @@
 function [] = score_saliency(model)
 % locations of folders
-imdir = '~/voanna_scratch/data/MIT/ALLSTIMULI/';
-salmapdir = ['~/voanna_scratch/maps/MIT/' model '/'];
-fixationdir = '~/voanna_scratch/data/MIT/ALLFIXATIONMAPS/';
-fixationptdir = '~/voanna_scratch/data/MIT/ALLFIXATIONMAPS/';
+imdir = '~/predicting_consistency/data/MIT/ALLSTIMULI/';
+salmapdir = ['~/predicting_consistency/maps/MIT/' model '/'];
+fixationdir = '~/predicting_consistency/data/MIT/ALLFIXATIONMAPS/';
+fixationptdir = '~/predicting_consistency/data/MIT/ALLFIXATIONMAPS/';
 
 % directory to save these metrics
-accuracydir = ['~/voanna_scratch/outputs/accuracies/MIT/'];
+accuracydir = ['~/predicting_consistency/outputs/accuracies/MIT/'];
 if  ~exist(accuracydir,'dir')
     mkdir(accuracydir);
 end
