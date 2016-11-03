@@ -4,7 +4,7 @@ Anna Volokitin, Michael Gygli, Xavier Boix, CVPR 2016
 
 Send feedback, suggestions and questions to voanna AT vision.ee.ethz.ch
 ____
-This is a simplified version of the code written for the computational experiments to test whether we can predict the accuracy of saliency maps and the consistency of eye-fixations among different observers directly from the image.  Our experimental results are reported in the paper.
+This is a simplified version of the code written for the computational experiments to test whether we can predict the accuracy of saliency maps and the consistency of eye-fixations among different observers directly from the image.  Our experimental results are reported in the [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Volokitin_Predicting_When_Saliency_CVPR_2016_paper.pdf).
 
 ###Paths
 All of the paths in the script are relative to the symlink `~/predicting_constistency`.  So if you download this project and symlink it to `~/predicting_constistency`, everything should just work
