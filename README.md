@@ -59,7 +59,7 @@ You need to download two scripts from the LabelMeToolbox and place them into the
 ### Running the SVR
 #### Dependencies
  - You need to download a matlab script for computing a cartesian product of cell arrays from https://www.mathworks.com/matlabcentral/fileexchange/10064-allcomb-varargin- and place it in the src/ directory
- - If using the chi^2 kernel for the SVR,  to get a fast chi^2 distance, compile chi2dist.m from https://github.com/twiecki/pynopticon/tree/master/src/mpi-chi2
+ - If using the chi^2 kernel for the SVR,  to get a fast chi^2 distance, compile chi2dist.m from the `third_party/mpi-chi2/` directory of this repository
  - LIBSVM with matlab bindings available from https://www.csie.ntu.edu.tw/~cjlin/libsvm/#download
  - To make the plots work you need to get `rotateXLabels.m` https://www.mathworks.com/matlabcentral/fileexchange/27812-rotate-x-axis-tick-labels/content/rotateXLabels.m
 
@@ -70,5 +70,5 @@ The SVMs were run in a batch setting, which is why each instance of `compare_SVR
 Make sure you are calling the svmtrain of LIBSVM and not the python built in one!
 
 A matfile containing the parameters of the experiment will be saved as  `outputs/svr/experiment-name_setup.mat`
-These results can then be assembled into one tensor by calling assemble_SVR_results(experiment-name) in matlab, which will create a new matfile `outputs/svr/experiment-name.mat`
+These results can then be assembled into one tensor by calling `assemble_SVR_results(experiment-name)` in matlab, which will create a new matfile `outputs/svr/experiment-name.mat`
 We can now visualise these results using the `View_compare_SVR.m` script
